@@ -1,0 +1,29 @@
+.movie:hover{
+    cursor: pointer;
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+    transform: scale(.9)
+
+}
+
+  
+  /* Movie.module.css */
+.favoriteIconContainer {
+  position: relative;
+}
+
+.favoriteIcon {
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  font-size: 2rem; 
+  cursor: pointer; 
+  color: gray; 
+}
+
+.filled {
+  color: gold; 
+}
+
+.unfilled {
+  color: gray; 
+}
